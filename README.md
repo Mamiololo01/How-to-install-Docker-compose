@@ -110,6 +110,8 @@ This command will show you information about the running containers and their st
 
 You can now access the demo application by pointing your browser to either localhost:8000 if you are running this demo on your local machine, or your_server_domain_or_IP:8000 if you are running this demo on a remote server.
 
-You’ll see a page like this:
+page look:
+
+<img width="981" alt="Screenshot 2023-04-04 at 23 05 20" src="https://user-images.githubusercontent.com/67044030/229937546-cba42c64-8fc6-499b-8cf6-2758a21e1ff9.png">
 
 
