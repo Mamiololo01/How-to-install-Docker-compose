@@ -34,7 +34,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 To verify that the installation was successful, you can run:
 
 docker-compose --version
-You’ll see output similar to this:
+
+<img width="724" alt="Screenshot 2023-04-04 at 22 57 38" src="https://user-images.githubusercontent.com/67044030/229935930-f34c9415-93f4-4a61-bc90-41a9a7d53341.png">
 
 
 Docker Compose is now successfully installed on your system. In the next section, you’ll see how to set up a docker-compose.yml file and get a containerized environment up and running with this tool.
