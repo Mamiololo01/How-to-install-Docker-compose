@@ -48,6 +48,9 @@ In this directory, set up an application folder to serve as the document root fo
 mkdir app
 Using your preferred text editor, create a new index.html file within the app folder:
 
+nano app/index.html
+
+
 
 Save and close the file when you’re done. If you are using nano, you can do that by typing CTRL+X, then Y and ENTER to confirm.
 
