@@ -48,24 +48,7 @@ In this directory, set up an application folder to serve as the document root fo
 mkdir app
 Using your preferred text editor, create a new index.html file within the app folder:
 
-nano app/index.html
-Place the following content into this file:
 
-~/compose-demo/app/index.html
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Docker Compose Demo</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
-</head>
-<body>
-
-    <h1>This is a Docker Compose Demo Page.</h1>
-    <p>This content is being served by an Nginx container.</p>
-
-</body>
-</html>
 Save and close the file when you’re done. If you are using nano, you can do that by typing CTRL+X, then Y and ENTER to confirm.
 
 Next, create the docker-compose.yml file:
@@ -97,6 +80,7 @@ Note: If you run into a permission error regarding the Docker socket, this means
 Your environment is now up and running in the background. To verify that the container is active, you can run:
 
 docker-compose ps
+
 This command will show you information about the running containers and their state, as well as any port redirections currently in place:
 
 
