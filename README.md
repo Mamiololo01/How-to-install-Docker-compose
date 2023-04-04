@@ -91,7 +91,10 @@ Step 3 — Running Docker Compose
 With the docker-compose.yml file in place, you can now execute Docker Compose to bring your environment up. The following command will download the necessary Docker images, create a container for the web service, and run the containerized environment in background mode:
 
 docker-compose up -d
+
 Docker Compose will first look for the defined image on your local system, and if it can’t locate the image it will download the image from Docker Hub. You’ll see output like this:
+
+<img width="869" alt="Screenshot 2023-04-04 at 23 02 36" src="https://user-images.githubusercontent.com/67044030/229937284-c1e540b1-2fc5-4505-a0c5-c39aceb85972.png">
 
 
 Note: If you run into a permission error regarding the Docker socket, this means you skipped Step 2 of How To Install and Use Docker on Ubuntu 20.04. Going back and completing that step will enable permissions to run docker commands without sudo.
