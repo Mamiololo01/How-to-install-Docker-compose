@@ -70,6 +70,9 @@ Save and close the file when you’re done. If you are using nano, you can do th
 Next, create the docker-compose.yml file:
 
 nano docker-compose.yml
+
+<img width="791" alt="Screenshot 2023-04-04 at 23 01 04" src="https://user-images.githubusercontent.com/67044030/229936881-7e569c29-c75f-464a-899b-f027a17d80c7.png">
+
 Insert the following content in your docker-compose.yml file:
 
 
