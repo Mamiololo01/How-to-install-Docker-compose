@@ -62,6 +62,7 @@ Using your preferred text editor, create a new index.html file within the app fo
 
 nano app/index.html
 
+<img width="772" alt="Screenshot 2023-04-04 at 23 00 05" src="https://user-images.githubusercontent.com/67044030/229936569-fb7504f0-dea9-43eb-ad08-9c285cbfa207.png">
 
 
 Save and close the file when you’re done. If you are using nano, you can do that by typing CTRL+X, then Y and ENTER to confirm.
