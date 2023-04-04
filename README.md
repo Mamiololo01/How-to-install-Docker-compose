@@ -47,7 +47,9 @@ To demonstrate how to set up a docker-compose.yml file and work with Docker Comp
 Start off by creating a new directory in your home folder, and then moving into it:
 
 mkdir ~/compose-demo
+
 cd ~/compose-demo
+
 In this directory, set up an application folder to serve as the document root for your Nginx environment:
 
 mkdir app
