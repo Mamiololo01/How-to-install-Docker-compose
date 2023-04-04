@@ -103,6 +103,8 @@ Your environment is now up and running in the background. To verify that the con
 
 docker-compose ps
 
+<img width="916" alt="Screenshot 2023-04-04 at 23 03 38" src="https://user-images.githubusercontent.com/67044030/229937451-b6c6d372-1367-498a-b6c9-5cee4753cbc7.png">
+
 This command will show you information about the running containers and their state, as well as any port redirections currently in place:
 
 
