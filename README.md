@@ -55,6 +55,9 @@ cd ~/compose-demo
 In this directory, set up an application folder to serve as the document root for your Nginx environment:
 
 mkdir app
+
+<img width="708" alt="Screenshot 2023-04-04 at 22 59 59" src="https://user-images.githubusercontent.com/67044030/229936372-053a61d0-4dbd-4f93-bc88-ea5ad61f595d.png">
+
 Using your preferred text editor, create a new index.html file within the app folder:
 
 nano app/index.html
