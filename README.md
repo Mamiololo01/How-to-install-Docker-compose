@@ -29,6 +29,8 @@ Next, set the correct permissions so that the docker-compose command is executab
 
 sudo chmod +x /usr/local/bin/docker-compose
 
+<img width="829" alt="Screenshot 2023-04-04 at 22 57 14" src="https://user-images.githubusercontent.com/67044030/229935716-56bed5b4-ccec-4367-be6e-8a30ee5073c6.png">
+
 To verify that the installation was successful, you can run:
 
 docker-compose --version
