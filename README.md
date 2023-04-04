@@ -50,6 +50,8 @@ mkdir ~/compose-demo
 
 cd ~/compose-demo
 
+<img width="631" alt="Screenshot 2023-04-04 at 22 58 57" src="https://user-images.githubusercontent.com/67044030/229936216-bb26b3dd-121e-4648-8fd2-94f28ea9369d.png">
+
 In this directory, set up an application folder to serve as the document root for your Nginx environment:
 
 mkdir app
