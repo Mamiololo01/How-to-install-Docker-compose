@@ -26,6 +26,7 @@ The following command will download the 1.29.2 release and save the executable f
 Next, set the correct permissions so that the docker-compose command is executable:
 
 sudo chmod +x /usr/local/bin/docker-compose
+
 To verify that the installation was successful, you can run:
 
 docker-compose --version
@@ -72,15 +73,7 @@ Next, create the docker-compose.yml file:
 nano docker-compose.yml
 Insert the following content in your docker-compose.yml file:
 
-docker-compose.yml
-version: '3.7'
-services:
-  web:
-    image: nginx:alpine
-    ports:
-      - "8000:80"
-    volumes:
-      - ./app:/usr/share/nginx/html
+
 The docker-compose.yml file typically starts off with the version definition. This will tell Docker Compose which configuration version you’re using.
 
 You then have the services block, where you set up the services that are part of this environment. In your case, you have a single service called web. This service uses the nginx:alpine image and sets up a port redirection with the ports directive. All requests on port 8000 of the host machine (the system from where you’re running Docker Compose) will be redirected to the web container on port 80, where Nginx will be running.
