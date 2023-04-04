@@ -23,6 +23,8 @@ First, confirm the latest version available in their releases page. At the time 
 
 The following command will download the 1.29.2 release and save the executable file at /usr/local/bin/docker-compose, which will make this software globally accessible as docker-compose:
 
+<img width="899" alt="Screenshot 2023-04-04 at 22 56 52" src="https://user-images.githubusercontent.com/67044030/229935446-0c1f0b2d-279e-4a26-a7f5-8129d75a8845.png">
+
 Next, set the correct permissions so that the docker-compose command is executable:
 
 sudo chmod +x /usr/local/bin/docker-compose
